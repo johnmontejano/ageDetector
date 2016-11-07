@@ -18,6 +18,8 @@
 		1652944E1DD044A200B30738 /* SecondQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652944D1DD044A200B30738 /* SecondQuestionViewController.swift */; };
 		165294501DD047EE00B30738 /* yeezy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1652944F1DD047EE00B30738 /* yeezy.png */; };
 		165294521DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 165294511DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg */; };
+		165294541DD04F0F00B30738 /* ThirdQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165294531DD04F0F00B30738 /* ThirdQuestionViewController.swift */; };
+		165294561DD0503200B30738 /* Cartoon-Baby-Group_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 165294551DD0503200B30738 /* Cartoon-Baby-Group_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		1652944D1DD044A200B30738 /* SecondQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondQuestionViewController.swift; sourceTree = "<group>"; };
 		1652944F1DD047EE00B30738 /* yeezy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezy.png; sourceTree = "<group>"; };
 		165294511DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a3d8ba8710b6267601acd8aed8401353.jpg; sourceTree = "<group>"; };
+		165294531DD04F0F00B30738 /* ThirdQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdQuestionViewController.swift; sourceTree = "<group>"; };
+		165294551DD0503200B30738 /* Cartoon-Baby-Group_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cartoon-Baby-Group_2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +112,11 @@
 				1652941D1DD0380000B30738 /* AppDelegate.swift */,
 				1652941F1DD0380000B30738 /* ViewController.swift */,
 				165294211DD0380000B30738 /* Main.storyboard */,
+				165294531DD04F0F00B30738 /* ThirdQuestionViewController.swift */,
 				1652944D1DD044A200B30738 /* SecondQuestionViewController.swift */,
 				1652944B1DD03D5700B30738 /* FirstQuestionViewController.swift */,
 				165294511DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg */,
+				165294551DD0503200B30738 /* Cartoon-Baby-Group_2.png */,
 				165294241DD0380000B30738 /* Assets.xcassets */,
 				1652944F1DD047EE00B30738 /* yeezy.png */,
 				165294261DD0380000B30738 /* LaunchScreen.storyboard */,
@@ -248,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				165294281DD0380000B30738 /* LaunchScreen.storyboard in Resources */,
+				165294561DD0503200B30738 /* Cartoon-Baby-Group_2.png in Resources */,
 				165294251DD0380000B30738 /* Assets.xcassets in Resources */,
 				165294501DD047EE00B30738 /* yeezy.png in Resources */,
 				165294231DD0380000B30738 /* Main.storyboard in Resources */,
@@ -278,6 +285,7 @@
 			files = (
 				1652944E1DD044A200B30738 /* SecondQuestionViewController.swift in Sources */,
 				165294201DD0380000B30738 /* ViewController.swift in Sources */,
+				165294541DD04F0F00B30738 /* ThirdQuestionViewController.swift in Sources */,
 				1652944C1DD03D5700B30738 /* FirstQuestionViewController.swift in Sources */,
 				1652941E1DD0380000B30738 /* AppDelegate.swift in Sources */,
 			);
