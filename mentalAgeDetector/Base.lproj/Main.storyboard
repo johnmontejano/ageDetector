@@ -37,18 +37,18 @@
                                     <segue destination="EuH-z9-QEX" kind="show" animates="NO" id="IfS-Ii-0Ih"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="👇" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRj-lh-Dkl">
-                                <rect key="frame" x="79" y="230" width="216" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental Age Detector 🔎" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvb-wG-vws">
                                 <rect key="frame" x="68" y="89" width="238" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.48951841004569929" blue="0.47068022680178589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="👇" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRj-lh-Dkl">
+                                <rect key="frame" x="79" y="212" width="216" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -93,6 +93,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="giveBackAct:" destination="EuH-z9-QEX" eventType="touchUpInside" id="6cc-Un-Ke2"/>
                                     <segue destination="Wb6-nj-hbO" kind="show" id="Max-DN-K4b"/>
                                 </connections>
                             </button>
@@ -110,6 +111,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="leaveAct:" destination="EuH-z9-QEX" eventType="touchUpInside" id="rYM-sx-RVx"/>
                                     <segue destination="Wb6-nj-hbO" kind="show" id="IZt-N8-t1O"/>
                                 </connections>
                             </button>
@@ -127,6 +129,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="keepAct:" destination="EuH-z9-QEX" eventType="touchUpInside" id="Zwn-SM-FaN"/>
                                     <segue destination="Wb6-nj-hbO" kind="show" id="Gec-SP-cjX"/>
                                 </connections>
                             </button>
@@ -176,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--Second Question View Controller-->
+        <!--First Question View Controller-->
         <scene sceneID="tGo-0P-S3d">
             <objects>
-                <viewController id="Wb6-nj-hbO" customClass="SecondQuestionViewController" customModule="mentalAgeDetector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Wb6-nj-hbO" customClass="FirstQuestionViewController" customModule="mentalAgeDetector" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MlF-2G-AP4"/>
                         <viewControllerLayoutGuide type="bottom" id="Ixc-IG-HrO"/>
@@ -265,10 +268,10 @@
             </objects>
             <point key="canvasLocation" x="2805.5999999999999" y="138.98050974512745"/>
         </scene>
-        <!--Third Question View Controller-->
+        <!--First Question View Controller-->
         <scene sceneID="Y4y-To-0f7">
             <objects>
-                <viewController id="XQN-rB-WOz" customClass="ThirdQuestionViewController" customModule="mentalAgeDetector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XQN-rB-WOz" customClass="FirstQuestionViewController" customModule="mentalAgeDetector" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Llf-T8-y9W"/>
                         <viewControllerLayoutGuide type="bottom" id="FT6-ol-TlG"/>
@@ -354,10 +357,10 @@
             </objects>
             <point key="canvasLocation" x="3612" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--First Question View Controller-->
         <scene sceneID="XjF-r7-V76">
             <objects>
-                <viewController id="ecH-Lb-H32" sceneMemberID="viewController">
+                <viewController id="ecH-Lb-H32" customClass="FirstQuestionViewController" customModule="mentalAgeDetector" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Tw-ia-Liw"/>
                         <viewControllerLayoutGuide type="bottom" id="vaa-pL-0fO"/>
@@ -459,7 +462,6 @@
                         <color key="backgroundColor" red="0.28557002544403076" green="0.32304388284683228" blue="0.34434515237808228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="result" destination="A2k-cb-g0d" id="2Sm-rX-akg"/>
                         <outlet property="resultLabel" destination="A2k-cb-g0d" id="BmH-YI-xEe"/>
                     </connections>
                 </viewController>
