@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1652941E1DD0380000B30738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652941D1DD0380000B30738 /* AppDelegate.swift */; };
+		165294201DD0380000B30738 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652941F1DD0380000B30738 /* ViewController.swift */; };
+		165294231DD0380000B30738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165294211DD0380000B30738 /* Main.storyboard */; };
+		165294251DD0380000B30738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165294241DD0380000B30738 /* Assets.xcassets */; };
+		165294281DD0380000B30738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165294261DD0380000B30738 /* LaunchScreen.storyboard */; };
+		165294331DD0380000B30738 /* mentalAgeDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165294321DD0380000B30738 /* mentalAgeDetectorTests.swift */; };
+		1652943E1DD0380000B30738 /* mentalAgeDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652943D1DD0380000B30738 /* mentalAgeDetectorUITests.swift */; };
+		1652944C1DD03D5700B30738 /* FirstQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652944B1DD03D5700B30738 /* FirstQuestionViewController.swift */; };
+		1652944E1DD044A200B30738 /* SecondQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652944D1DD044A200B30738 /* SecondQuestionViewController.swift */; };
+		165294501DD047EE00B30738 /* yeezy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1652944F1DD047EE00B30738 /* yeezy.png */; };
+		165294521DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 165294511DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1652942F1DD0380000B30738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 165294121DD0380000B30738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165294191DD0380000B30738;
+			remoteInfo = mentalAgeDetector;
+		};
+		1652943A1DD0380000B30738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 165294121DD0380000B30738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165294191DD0380000B30738;
+			remoteInfo = mentalAgeDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1652941A1DD0380000B30738 /* mentalAgeDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mentalAgeDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1652941D1DD0380000B30738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1652941F1DD0380000B30738 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		165294221DD0380000B30738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		165294241DD0380000B30738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		165294271DD0380000B30738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		165294291DD0380000B30738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1652942E1DD0380000B30738 /* mentalAgeDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentalAgeDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165294321DD0380000B30738 /* mentalAgeDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalAgeDetectorTests.swift; sourceTree = "<group>"; };
+		165294341DD0380000B30738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165294391DD0380000B30738 /* mentalAgeDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentalAgeDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1652943D1DD0380000B30738 /* mentalAgeDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalAgeDetectorUITests.swift; sourceTree = "<group>"; };
+		1652943F1DD0380000B30738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1652944B1DD03D5700B30738 /* FirstQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstQuestionViewController.swift; sourceTree = "<group>"; };
+		1652944D1DD044A200B30738 /* SecondQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondQuestionViewController.swift; sourceTree = "<group>"; };
+		1652944F1DD047EE00B30738 /* yeezy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeezy.png; sourceTree = "<group>"; };
+		165294511DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a3d8ba8710b6267601acd8aed8401353.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165294171DD0380000B30738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1652942B1DD0380000B30738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165294361DD0380000B30738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165294111DD0380000B30738 = {
+			isa = PBXGroup;
+			children = (
+				1652941C1DD0380000B30738 /* mentalAgeDetector */,
+				165294311DD0380000B30738 /* mentalAgeDetectorTests */,
+				1652943C1DD0380000B30738 /* mentalAgeDetectorUITests */,
+				1652941B1DD0380000B30738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1652941B1DD0380000B30738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1652941A1DD0380000B30738 /* mentalAgeDetector.app */,
+				1652942E1DD0380000B30738 /* mentalAgeDetectorTests.xctest */,
+				165294391DD0380000B30738 /* mentalAgeDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1652941C1DD0380000B30738 /* mentalAgeDetector */ = {
+			isa = PBXGroup;
+			children = (
+				1652941D1DD0380000B30738 /* AppDelegate.swift */,
+				1652941F1DD0380000B30738 /* ViewController.swift */,
+				165294211DD0380000B30738 /* Main.storyboard */,
+				1652944D1DD044A200B30738 /* SecondQuestionViewController.swift */,
+				1652944B1DD03D5700B30738 /* FirstQuestionViewController.swift */,
+				165294511DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg */,
+				165294241DD0380000B30738 /* Assets.xcassets */,
+				1652944F1DD047EE00B30738 /* yeezy.png */,
+				165294261DD0380000B30738 /* LaunchScreen.storyboard */,
+				165294291DD0380000B30738 /* Info.plist */,
+			);
+			path = mentalAgeDetector;
+			sourceTree = "<group>";
+		};
+		165294311DD0380000B30738 /* mentalAgeDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				165294321DD0380000B30738 /* mentalAgeDetectorTests.swift */,
+				165294341DD0380000B30738 /* Info.plist */,
+			);
+			path = mentalAgeDetectorTests;
+			sourceTree = "<group>";
+		};
+		1652943C1DD0380000B30738 /* mentalAgeDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1652943D1DD0380000B30738 /* mentalAgeDetectorUITests.swift */,
+				1652943F1DD0380000B30738 /* Info.plist */,
+			);
+			path = mentalAgeDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165294191DD0380000B30738 /* mentalAgeDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165294421DD0380000B30738 /* Build configuration list for PBXNativeTarget "mentalAgeDetector" */;
+			buildPhases = (
+				165294161DD0380000B30738 /* Sources */,
+				165294171DD0380000B30738 /* Frameworks */,
+				165294181DD0380000B30738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mentalAgeDetector;
+			productName = mentalAgeDetector;
+			productReference = 1652941A1DD0380000B30738 /* mentalAgeDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1652942D1DD0380000B30738 /* mentalAgeDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165294451DD0380000B30738 /* Build configuration list for PBXNativeTarget "mentalAgeDetectorTests" */;
+			buildPhases = (
+				1652942A1DD0380000B30738 /* Sources */,
+				1652942B1DD0380000B30738 /* Frameworks */,
+				1652942C1DD0380000B30738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165294301DD0380000B30738 /* PBXTargetDependency */,
+			);
+			name = mentalAgeDetectorTests;
+			productName = mentalAgeDetectorTests;
+			productReference = 1652942E1DD0380000B30738 /* mentalAgeDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		165294381DD0380000B30738 /* mentalAgeDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165294481DD0380000B30738 /* Build configuration list for PBXNativeTarget "mentalAgeDetectorUITests" */;
+			buildPhases = (
+				165294351DD0380000B30738 /* Sources */,
+				165294361DD0380000B30738 /* Frameworks */,
+				165294371DD0380000B30738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1652943B1DD0380000B30738 /* PBXTargetDependency */,
+			);
+			name = mentalAgeDetectorUITests;
+			productName = mentalAgeDetectorUITests;
+			productReference = 165294391DD0380000B30738 /* mentalAgeDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		165294121DD0380000B30738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "John Montejano";
+				TargetAttributes = {
+					165294191DD0380000B30738 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6T92523974;
+						ProvisioningStyle = Automatic;
+					};
+					1652942D1DD0380000B30738 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6T92523974;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 165294191DD0380000B30738;
+					};
+					165294381DD0380000B30738 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6T92523974;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 165294191DD0380000B30738;
+					};
+				};
+			};
+			buildConfigurationList = 165294151DD0380000B30738 /* Build configuration list for PBXProject "mentalAgeDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 165294111DD0380000B30738;
+			productRefGroup = 1652941B1DD0380000B30738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				165294191DD0380000B30738 /* mentalAgeDetector */,
+				1652942D1DD0380000B30738 /* mentalAgeDetectorTests */,
+				165294381DD0380000B30738 /* mentalAgeDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165294181DD0380000B30738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165294281DD0380000B30738 /* LaunchScreen.storyboard in Resources */,
+				165294251DD0380000B30738 /* Assets.xcassets in Resources */,
+				165294501DD047EE00B30738 /* yeezy.png in Resources */,
+				165294231DD0380000B30738 /* Main.storyboard in Resources */,
+				165294521DD048FA00B30738 /* a3d8ba8710b6267601acd8aed8401353.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1652942C1DD0380000B30738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165294371DD0380000B30738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165294161DD0380000B30738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1652944E1DD044A200B30738 /* SecondQuestionViewController.swift in Sources */,
+				165294201DD0380000B30738 /* ViewController.swift in Sources */,
+				1652944C1DD03D5700B30738 /* FirstQuestionViewController.swift in Sources */,
+				1652941E1DD0380000B30738 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1652942A1DD0380000B30738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165294331DD0380000B30738 /* mentalAgeDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165294351DD0380000B30738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1652943E1DD0380000B30738 /* mentalAgeDetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		165294301DD0380000B30738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165294191DD0380000B30738 /* mentalAgeDetector */;
+			targetProxy = 1652942F1DD0380000B30738 /* PBXContainerItemProxy */;
+		};
+		1652943B1DD0380000B30738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165294191DD0380000B30738 /* mentalAgeDetector */;
+			targetProxy = 1652943A1DD0380000B30738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		165294211DD0380000B30738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165294221DD0380000B30738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		165294261DD0380000B30738 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165294271DD0380000B30738 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		165294401DD0380000B30738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		165294411DD0380000B30738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165294431DD0380000B30738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6T92523974;
+				INFOPLIST_FILE = mentalAgeDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blank.mentalAgeDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		165294441DD0380000B30738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6T92523974;
+				INFOPLIST_FILE = mentalAgeDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blank.mentalAgeDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		165294461DD0380000B30738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6T92523974;
+				INFOPLIST_FILE = mentalAgeDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blank.mentalAgeDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mentalAgeDetector.app/mentalAgeDetector";
+			};
+			name = Debug;
+		};
+		165294471DD0380000B30738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6T92523974;
+				INFOPLIST_FILE = mentalAgeDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blank.mentalAgeDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mentalAgeDetector.app/mentalAgeDetector";
+			};
+			name = Release;
+		};
+		165294491DD0380000B30738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6T92523974;
+				INFOPLIST_FILE = mentalAgeDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blank.mentalAgeDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mentalAgeDetector;
+			};
+			name = Debug;
+		};
+		1652944A1DD0380000B30738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6T92523974;
+				INFOPLIST_FILE = mentalAgeDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blank.mentalAgeDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mentalAgeDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		165294151DD0380000B30738 /* Build configuration list for PBXProject "mentalAgeDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165294401DD0380000B30738 /* Debug */,
+				165294411DD0380000B30738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165294421DD0380000B30738 /* Build configuration list for PBXNativeTarget "mentalAgeDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165294431DD0380000B30738 /* Debug */,
+				165294441DD0380000B30738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		165294451DD0380000B30738 /* Build configuration list for PBXNativeTarget "mentalAgeDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165294461DD0380000B30738 /* Debug */,
+				165294471DD0380000B30738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		165294481DD0380000B30738 /* Build configuration list for PBXNativeTarget "mentalAgeDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165294491DD0380000B30738 /* Debug */,
+				1652944A1DD0380000B30738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 165294121DD0380000B30738 /* Project object */;
+}
