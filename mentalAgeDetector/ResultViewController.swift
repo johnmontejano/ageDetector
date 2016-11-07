@@ -1,5 +1,5 @@
 //
-//  FirstQuestionViewController.swift
+//  ResultViewController.swift
 //  mentalAgeDetector
 //
 //  Created by John Montejano on 11/6/16.
@@ -8,31 +8,11 @@
 
 import UIKit
 
-class FirstQuestionViewController: UIViewController {
-var age = 0
-    @IBOutlet weak var giveBack: UIButton!
-    @IBOutlet var resultLabel: UILabel!
-    
-    @IBOutlet weak var Leave: UIButton!
-    
-    @IBOutlet weak var Keep: UIButton!
-    
+class ResultViewController: UIViewController {
+
+    @IBOutlet var result: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        if (giveBack != nil) {
-            age = 25
-        }else if (Leave != nil) {
-            age = 18
-        } else if (Keep != nil) {
-            age = 15
-        }
-        resultLabel.text = "45"
-        // func prepare(segue: UIStoryboardSegue, sender: AnyObject?) {
-          //  let dest : ResultViewController = segue.destination as! ResultViewController
-            
-       // }
-        
-    
         // Do any additional setup after loading the view.
     }
 
